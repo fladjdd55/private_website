@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jean D. Durandisse's Personal Website</title>
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar active" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile.png" alt="Jean D. Durandisse" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Jean D. Durandisse">Jean D. Durandisse</h1>
+
+          
+          <p class="title"> Network Engineer & Pentester</p>
+            
+        
+        </div>
+<!--
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+-->
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jd@durandisse.org" class="contact-link">jd@durandisse.org</a>
+            </div>
+
+          </li>
+
+          
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Port-au-prince, Haiti</address>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+            <form method="get" action="#">
+              <button class="form-btn" type="submit">My Full Resume</button>
+            </form>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/jeandinesse05/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/fladjdd55" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          
+          
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+          
+          
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article  class="about  active" data-page="about" id="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section  class="about-text">
+                <p>
+            Cybersecurity enthusiast and network Engineer with 5+ years of experience in designing, troubleshooting, administrating networks.
+            Proficient in GNU/Linux operating system configuration, utilities and programming. Provide a powerful combination of analysis, implementation, and support.
+	  </p>
+          <p>
+            I learned various skills and concepts related to cybersecurity and network engineering, such as penetration testing, vulnerability scanning, incident response, digital forensics.  
+          </p>
+
+          </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I do </h3>
+
+          <ul class="service-list">
+
+          
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/shield-checkmark-outline.svg" alt="laptop" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Incident Response</h4>
+
+                <p class="service-item-text">
+                  I identify and resolve security incidents that may affect your data and systems. I use <b>OSSEC</b>, <b>ELK Stack</b>, and <b>SIEM</b> to detect, investigate, and respond to cyber threats. I can monitor and analyze your hosts, collect and visualize your data, and generate alerts and reports for security monitoring and incident response. I can also perform OS hardening, which is the process of securing your operating system by applying patches, disabling unnecessary services, configuring firewall rules, enforcing password policies, etc. to reduce the attack surface and prevent unauthorized access. I can help you protect your assets, identify vulnerabilities, mitigate risks, and recover from incidents.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/wifi.svg" alt="wifi" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Enterprise Networking</h4>
+
+                <p class="service-item-text">
+                  I design and test wired and wireless network infrastructure with various tools and technologies. I can use <b>static</b>, <b>RIP</b>, <b>EIGRP</b>, and <b>OSPF</b> routing protocols, <b>OpenVPN</b>, <b>IPsec</b>, and <b>L2TP</b> VPN protocols to enable and secure data exchange between different networks. I can also use <b>VLANs</b> and <b>Switching</b> functions to segment and optimize network traffic. I can install and configure <b>firewalls</b> to protect network resources from unauthorized access and attacks. I can deploy and maintain wireless networking solutions to provide wireless access to users and devices. I use <b>Cisco</b>, <b>Aruba</b>, and <b>Ubiquiti</b> networking devices to build reliable and scalable network infrastructure.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/search-outline.svg" alt="wifi" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Digital Forensics</h4>
+
+                <p class="service-item-text">
+                  I perform digital forensics analysis on disks, disk images, mobile devices, and cloud services with tools like <b>Autopsy</b>, <b>OSForensics</b>, <b> AXIOM</b>, and <b>Cellebrite</b>. I can extract, examine, and report evidence from various sources, such as files, emails, chats, browsers, etc. I can also recover deleted or hidden data, decrypt passwords, and identify malware. I can handle different types of mobile devices, such as android and ios, and access cloud data from platforms like Google Drive, iCloud, Dropbox, etc.
+                </p>
+              </div>
+
+            </li>
+                     
+
+          </ul>
+
+        </section>
+
+        
+          
+
+      </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article  class="resume" data-page="resume" id="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+          
+
+   
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+<!--
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+              <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"><a href="#"><span style="color:#FFFFFF"><strong>Netacad</strong></span></a></h4>
+
+              <span>2018-2020</span>
+              <span style="color:DodgerBlue">Networking</span>
+              <p class="timeline-text"><strong style="color:Dodgerblue">Majors: </strong>Cybersecurity & Network Engineering Technology</p>
+              <p class="timeline-text">
+                <span style="color:#7FFF00">Notable Coursework:</span> Cyber Forensics, Cybersecurity Fundamentals, Data Communications and Networking,
+             </p>
+
+       </li>
+
+ -->    
+	  </ol>
+<!--
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="construct"></ion-icon>
+            </div>
+
+            <h3 class="h3">Project Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">TryHackMe & HackTheBox</h4>
+
+              <span>2022 — Present</span>
+
+              <p class="timeline-text">
+                <ul>
+                  <li class="regular-list">Completed over 70 rooms and ranked in the top 3% on <a href="#" class="regular">Chainnode</a>, Mining platfom.</li>
+                </ul>
+              </p>
+
+            </li>
+                                            
+          </ol>
+
+	</section>
+-->
+
+        <!--
+
+        skills
+        -->
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+          
+        <h3 class="h3">My SKills</h3>
+          </div>
+
+          <ol class="timeline-list">
+            
+            <li class="timeline-item">
+
+              <p class="h4 timeline-item-title"> <font color="DodgerBlue"><strong>Programming: </strong></font> <font color="#FFFFFF"> Python, SQL, Bash, git</font></p>
+   
+            </li>
+            <li class="timeline-item">
+
+              <p class="h4 timeline-item-title"> <font color="DodgerBlue"><strong>Data Visualization: </strong></font> <font color="#FFFFFF"> Tableau, PowerBI</font></p>
+   
+            </li>
+            <li class="timeline-item">
+
+              <p class="h4 timeline-item-title"> <font color="DodgerBlue"><strong>Web Design: </strong></font> <font color="#FFFFFF">JavaScript, HTML, CSS, Wordpress</font></p>
+   
+            </li>
+            <li class="timeline-item">
+
+              <p class="h4 timeline-item-title"> <font color="DodgerBlue"><strong>Operating Systems: </strong></font> <font color="#FFFFFF">Windows, Windows Server, Linux (Kali, Ubuntu, CentOS, Debian, Arch), FreeBSD, MacOS</font></p>
+   
+            </li>
+            <li class="timeline-item">
+
+              <p class="h4 timeline-item-title"> <font color="DodgerBlue"><strong>Tools: </strong></font> <font color="#FFFFFF">Wireshark, Nmap, OSSEC, ELK Stack / Elasticsearch, Metasploit, Nessus</font></p>
+   
+            </li>
+            <li class="timeline-item">
+
+              <p class="h4 timeline-item-title"> <font color="DodgerBlue"><strong>Networking: </strong></font>TCP/IP, Routing Protocols, VPN Protocols, VLANs, Switching, 802.1x, Wireless Networking, Firewalls<font color="#FFFFFF"></font></p>
+   
+            </li>
+            
+            <li class="timeline-item">
+
+              <p class="h4 timeline-item-title"> <font color="DodgerBlue"><strong>Firewalls: </strong></font> <font color="#FFFFFF"> pfSense, VyOS </font></p>
+   
+            </li>
+             <li class="timeline-item">
+
+              <p class="h4 timeline-item-title"> <font color="DodgerBlue"><strong>Digital Forensics: </strong></font> <font color="#FFFFFF">Autopsy, OSForensics, Magnet AXIOM, Cellebrite</font></p>
+   
+            </li>
+            <li class="timeline-item">
+
+              <p class="h4 timeline-item-title"> <font color="DodgerBlue"><strong>Virtualization: </strong></font> <font color="#FFFFFF">VMware ESXI, VMware Workstation, Virtualbox, Parallels, UTM, Docker, TrueNAS</font></p>
+   
+            </li>
+            <li class="timeline-item">
+
+              <p class="h4 timeline-item-title"> <font color="DodgerBlue"><strong>Hardware: </strong></font> <font color="#FFFFFF">Raspberry Pi, Cisco IOS Networking Devices, Aruba Networking Gear, Ubiquiti Network Hardware</font></p>
+   
+            </li>
+            <li class="timeline-item">
+
+              <p class="h4 timeline-item-title"> <font color="DodgerBlue"><strong>Knowledge: </strong></font> <font color="#FFFFFF">Penetration Testing, Forensics Investigation, Risk Assessment, Intrusion Detection, Troubleshooting,
+                Active Directory, Incident Response, Virtualization</font></p>
+   
+            </li>
+            
+          </ol>
+
+        </section>
+        
+
+            
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+    
+      <article   class="portfolio" data-page="portfolio">
+        
+        <header>
+          <h2  class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <p style="color:#FFFFFF">Click on 'All' button to make sure all project elements are loaded.<br /><br /></p>
+        
+        <section  class="projects">
+          <a name="portfoliolink"></a>
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Networking</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Programming</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Hacking</button>
+            </li>
+
+          </ul>
+
+
+          
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Networking</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Programming</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Hacking</button>
+              </li>
+
+            </ul>
+
+          </div>
+               
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="hacking">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/works/incresp.jpg" alt="incresp" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Incident Response</h3>
+
+                <p class="project-category">Hacking</p>
+                
+
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="networking">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/works/firewalls.jpg" alt="firewalls" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Firewalls</h3>
+
+                <p class="project-category">Networking</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="networking">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/works/vpn.jpg" alt="vpn" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">VPNs</h3>
+
+                <p class="project-category">Networking</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="hacking">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/works/intdect.jpg" alt="int" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Intrusion Detection</h3>
+
+                <p class="project-category">Hacking</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="hacking">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/works/digfor.jpg" alt="digfor." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Digital Forensics</h3>
+
+                <p class="project-category">Hacking</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="networking">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/works/stonet.jpg" alt="stonet" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Storage Area Networking</h3>
+
+                <p class="project-category">Networking</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="networking">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/works/netadm.jpg" alt="netadm" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Network Administration</h3>
+
+                <p class="project-category">Networking</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="programming">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/works/coding.jpg" alt="code" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Software Development</h3>
+
+                <p class="project-category">Programming</p>
+
+              </a>
+            </li>
+
+            <li class="project-item" data-filter-item data-category="networking">
+              <a href="./pages/stp.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/works/network2.jpg" alt="span" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Spanning Trees and Network Performance</h3>
+
+                <p class="project-category">Networking</p>
+                
+
+              </a>
+            </li>
+
+            <li class="project-item" data-filter-item data-category="networking">
+              <a href="./pages/enterprise.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/works/enterprise1.jpg" alt="ent" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Enterprise Network Infrastructure</h3>
+
+                <p class="project-category">Networking</p>
+                
+
+              </a>
+            </li>
+
+            <li class="project-item" data-filter-item data-category="networking">
+              <a href="./pages/routing.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/works/network3.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Routing</h3>
+
+                <p class="project-category">Networking</p>
+                
+
+              </a>
+            </li>
+
+            <li class="project-item" data-filter-item data-category="networking">
+              <a href="./pages/redunt.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/works/firewalls.jpg" alt="red" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Redundant LAN Gateways</h3>
+
+                <p class="project-category">Networking</p>
+                
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+    
+    
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article  class="contact" data-page="contact" id="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d30257.18843211003!2d-72.32233421404237!3d18.567340209640964!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!3e6!4m5!1s0x8eb9dd57503eaa91%3A0x3cd5815df929aa08!2sPort-au-Prince!3m2!1d18.594395!2d-72.3074326!4m4!2sPort-au-Prince!3m2!1d18.594397316990666!2d-72.30743050575256!5e0!3m2!1sfr!2sht!4v1704061447748!5m2!1sfr!2sht"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formsubmit.co/4666387447f718f02299e81a5c90f57d" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+
+              <input type="hidden" name="_captcha" value="true" required>
+
+              <input type="hidden" name="_blacklist" value="act now, test, Test, TEST, final notice, BTC, btc, you have 24 hours, you have 48 hours, you have 72 hours, sexy, sale, hot, hacked, urgent, free, winner, bitcoin, security holes, gained access, risk-free, ???, $$$, guaranteed, no obligation, last chance, fee">
+
+
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" enabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
